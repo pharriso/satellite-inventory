@@ -1,1 +1,2 @@
 plugin: redhat.satellite.foreman
+want_hostgroups: true
