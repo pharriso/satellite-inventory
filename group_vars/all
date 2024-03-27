@@ -1,0 +1,9 @@
+selinux_policy: targeted
+selinux_state: enforcing
+
+sysctl_params:
+  - {"name": "net.ipv4.conf.default.log_martians", "value": "1"}
+  - {"name": "net.ipv4.conf.default.rp_filter", "value": "1"}
+
+sshd_permit_root_login: without-password
+sshd_password_authentication: 'yes'
